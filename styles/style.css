@@ -36,11 +36,21 @@ body {
   right: 0;
 }
 
+#language {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  background-color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 4px 4px 0 0;
+  cursor: pointer;
+}
+
 #code {
   width: 600px;
-  height: 250px;
+  height: auto;
   border: 1px transparent solid;
-  margin: 20px auto 0;
+  margin: 30px auto 0;
 }
 
 #code .pin {
@@ -119,7 +129,7 @@ body {
   #head .headText {
     margin-top: 30px;
     font-size: 20px;
-    margin: 25px 20px 0;
+    margin: 30px 20px 0;
   }
 
   #head span {
@@ -127,9 +137,13 @@ body {
     margin: 5px 20px 0;
   }
 
+  #head .github {
+    width: 60px;
+  }
+
   #code {
     width: 100%;
-    height: 200px;
+    height: auto;
   }
 
   #code .pin {
@@ -152,6 +166,6 @@ body {
 
   #foot {
     margin: 0 auto;
-    width: 90%;
+    width: 92%;
   }
 }
