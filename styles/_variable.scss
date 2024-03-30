@@ -12,10 +12,10 @@ $text-dark: rgba(16, 16, 16, 1);
   align-items: center;
 }
 
-@mixin btn-custom {
-  width: 200px;
-  height: 55px;
-  border-radius: 10px;
+@mixin btn-custom($width, $height, $radius) {
+  width: $width + px;
+  height: $height + px;
+  border-radius: $radius + px;
   display: inline-block;
   cursor: pointer;
 }
